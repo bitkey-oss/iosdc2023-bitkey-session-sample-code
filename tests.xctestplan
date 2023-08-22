@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "5CFD0325-4442-483D-9976-F2D2A5D4D9E7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Internal",
+        "identifier" : "HeavyBuildTest",
+        "name" : "HeavyBuildTest"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Internal",
+        "identifier" : "ViewATest",
+        "name" : "ViewATest"
+      }
+    }
+  ],
+  "version" : 1
+}
